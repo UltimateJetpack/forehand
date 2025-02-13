@@ -1,4 +1,19 @@
-body {
-  background-color: #38374D;
-  text-color: #ffffff;
+body{
+  background-color: #7B66CA;
+  color: white;
+  text-align: left;
+  font-family: DM Serif Text;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+.heading{
+  font-family: teko;
+  text-align: center;
+  font-size: 300%;
+  text-shadow: #4A3E76 2px 2px
+}
+
+h2.heading{
+  font-size: 200%;
 }
