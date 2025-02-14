@@ -18,6 +18,10 @@ h2.heading {
   font-size: 200%;
 }
 
+a:link {
+  color: #0b446b
+}
+
 a:visited {
   color: #e60000;
 }
