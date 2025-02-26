@@ -18,6 +18,15 @@ h2.heading {
   font-size: 200%;
 }
 
+.bordered {
+  border-style: solid;
+  border-color: #d3dbec;
+  border-width: 3px;
+  padding: 5px;
+  border-radius: 9px;
+  background-color: #d3dbec;
+  color: #666666;
+
 a:link {
   color:  #FFB347;
 }
