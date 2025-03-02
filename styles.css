@@ -20,18 +20,18 @@ h2.heading {
 
 .bordered {
   border-style: solid;
-  border-color: #d3dbec;
+  border-color: #46477b;
   border-width: 3px;
   padding: 5px;
   border-radius: 9px;
-  background-color: #d3dbec;
-  color: #666666;
+  background-color: #46477b;
+  color: #eee;
 }
 
 a {
-  color:  #e60000;
+  color:  #bc6e7f;
 }
 
 a:visited {
-  color: #FFB347;
+  color: #cca37;
 }
