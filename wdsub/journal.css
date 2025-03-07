@@ -1,28 +1,64 @@
-#bg {
+body {
+  font-family: 'noticia text';
+  margin: 0px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'UnifrakturMaguntia';
+  font-size: 300%;
+  margin-bottom: 15px;
+}
+
+#background {
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.55;
 }
 
-#preheader, #pagetitle {
-  text-align: center;
+#preheader, #header {
   background-color: #fff;
 }
 
-.h2 {
-  text-align: center;
+#preheader {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  padding: 0px 0px 0px;
+}
+
+#links {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: center;
 }
 
 .navlink {
   display: block;
   text-decoration: none;
   text-align: center;
-  color: #59e;
+  color: gray;
   margin: auto;
+  flex-grow: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navlink:hover {
+  color: #2f4f4f;
+  background-color: #eee;
 }
 
 .navlink-spacer {
@@ -30,6 +66,14 @@
   color: #2f4f4f;
   padding: 0px;
   margin: 0px;
+  border: solid 1px #2f4f4f;
+}
+
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5px 15px 5px;
+  background-color: rgb(255, 255, 255, 0.899);
 }
 
 hr {
@@ -37,10 +81,30 @@ hr {
   height: 2px;
   background-color: #2f4f4f;
   border: 0px;
+  margin-bottom: 0px;
 }
 
-#content {
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 5px 15px 5px;
-  background-color: rgb(255, 255, 255, 0.8);
+.article > p:first-letter {
+  font-size: xx-large;
+}
+
+.art-pic {
+  float: right;
+  padding: 10px;
+  width: 30%;
+  border: solid 1px #2f4f4f;
+  text-align: center;
+  font-style: italic;
+  font-size: 75%;
+  margin: 10px;
+}
+
+.art-pic img {
+  width: 100%;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 2em;
+}
