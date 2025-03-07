@@ -41,7 +41,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   justify-content: space-evenly;
-  flex-flow: row wrap;
+  width: 100%;
   align-content: center;
 }
 
@@ -49,9 +49,9 @@ body {
   display: block;
   text-decoration: none;
   text-align: center;
-  color: gray;
+  color: #444;
   margin: auto;
-  flex-grow: 1;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .navlink-spacer {
-  flex-grow: 0;
+  width: 0%;
   color: #2f4f4f;
   padding: 0px;
   margin: 0px;
