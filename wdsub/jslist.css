@@ -1,0 +1,22 @@
+#header {
+		margin: 0px 0px 30px;
+  padding: 30px;
+  text-align: center;
+  background-color: #0e98ea;
+}
+
+#input-group {
+  text-align: center;
+}
+
+#list-group {
+  list-style-type: none;
+}
+
+#Add {
+	background-color: #0e98ea;
+}
+
+#Clear {
+	background-color: #ea383e
+}
