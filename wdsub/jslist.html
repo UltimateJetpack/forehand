@@ -2,25 +2,24 @@
 <html>
 	<head>
 		<title>JSLIST</title>
+		<link rel="stylesheet" href="jslist.css">
 	</head>
 	<body>
 		<div id="header">
-    <h1>List Maker</h1>
-</div>
+        <h1>List Maker</h1>
+        </div>
 
-<div id="input-group">
-  <label for="new-item">New Item:</label>
-  <input id="new-item">
-  <button id="Add" onclick="addItem()">Add To List</button>
-  <button id="Clear" onclick="clearList()">Clear</buton>
-</div>
+        <div id="input-group">
+            <label for="new-item">New Item:</label>
+            <input id="new-item">
+            <button id="Add" onclick="addItem()">Add To List</button>
+            <button id="Clear" onclick="clearList()">Clear</buton>
+        </div>
 
-<div id="list-group">
-<ul id="new-item">
+        <div id="list-group">
+            <ul id="new-item"></ul>
+        </div>
 
-</ul>
-</div>
-
-
-	</body>
+        <script src="jslist.js"></script>
+    </body>
 </html>
