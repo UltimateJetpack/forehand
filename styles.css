@@ -35,3 +35,38 @@ a {
 a:visited {
   color: #ccab37;
 }
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  background-color: #bbf;
+  color: #112;
+}
+
+#nav-list > li {
+  flex-grow: 1;
+  display: block;
+}
+
+#nav-list ul {
+  display: none;
+  background-color: #bbl;
+  width: 100%;
+}
+
+#nav-list li:hover {
+  background-color: #99d;
+  color: #112;
+}
+
+#nav-list li:hover ul {
+  display: block;
+}
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
+}
