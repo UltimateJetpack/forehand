@@ -9,7 +9,7 @@ function computePythag() {
   } else if (_b == "" && _a != "" && _c != "") {
     _inputArr[1].value = Math.sqrt(Math.pow(_c, 2) - Math.pow(_a, 2));
   } else if (_c == "" && _a != "" && _b != "") {
-    _inputArr[2].value = Math.sqrt(Math.pow(_a, 2) + Math.pow(_b, 2);
+    _inputArr[2].value = Math.sqrt(Math.pow(_a, 2) + Math.pow(_b, 2));
   } else {
     window.alert("Please Enter two side lengths");
   }
