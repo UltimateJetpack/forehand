@@ -3,7 +3,6 @@
   width: 40px;
   height: 40px;
   border: 2px solid black;
-  float: inherit;
 }
 
 #r-square {
@@ -11,48 +10,49 @@
   width: 40px;
   height: 40px;
   border: 2px solid black;
-  float: inherit;
   
 }
 
 #row-1 {
-  float: left;
 }
 
 #row-2 {
-  float: left;
+  
 }
 
 #row-3 {
-  float: left;
+  
 }
 
 #row-4 {
-  float: left;
+  
 }
 
 #row-5 {
-  float: left;
+  
 }
 
 #row-6 {
-  float: left;
+  
 }
 
 #row-7 {
-  float: left;
+  
 }
 
 #row-8 {
-  float: left;
+  
 }
 
 #board {
-  border: 4px;
-  margin-left: 25%;
-  margin-right: 25%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 0px;
+  max-width: 352px;
+  height: 352px;
   margin-top: 10%;
-  margin-bottom: 10%;
-  min-width: 40vw;
-  max-width: 40vw;
+  margin-left: 39%;
+  margin-right: 25%;
 }
+
