@@ -1,0 +1,58 @@
+#b-square {
+  background-color: #FFCCBC;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  float: inherit;
+}
+
+#r-square {
+  background-color: #BF360C;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  float: inherit;
+  
+}
+
+#row-1 {
+  float: left;
+}
+
+#row-2 {
+  float: left;
+}
+
+#row-3 {
+  float: left;
+}
+
+#row-4 {
+  float: left;
+}
+
+#row-5 {
+  float: left;
+}
+
+#row-6 {
+  float: left;
+}
+
+#row-7 {
+  float: left;
+}
+
+#row-8 {
+  float: left;
+}
+
+#board {
+  border: 4px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  min-width: 40vw;
+  max-width: 40vw;
+}
