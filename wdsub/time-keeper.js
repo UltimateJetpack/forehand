@@ -8,7 +8,7 @@ for (const element of cookieArr) {
   if (element.split("=")[0] == "init-date") {
     hasInitDate = true;
     initDate = new Date(element.split("=")[1]);
-  } 
+  }
 }
 
 if (!hasInitDate) {
@@ -16,11 +16,12 @@ if (!hasInitDate) {
 } else {
   let now = new Date();
   document.cookie = "new-date=" + now + "; max-age=31536000000";
-  timeDifference = now.getTime() - initDate.getTime();  
+  timeDifference = now.getTime() - initDate.getTime(); //gets the difference in milliseconds from first access until now
 }
 
 let timeSpent = document.getElementById("time-spent");
-let numHours = Math.floor(timeDifference / 360000);
-let numMins = Math.floor((timeDifference % 360000) * 60);
+let numHours = Math.floor(timeDifference / 3600000);
+let numMins = Math.floor((timeDifference % 3600000) * 60);
 let diffStr = numHours + ":" + numMins;
 timeSpent.innerText = diffStr;
+
