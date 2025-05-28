@@ -10,6 +10,20 @@
   <body style="text-align:center;">
     <div id="gheader"></div>
     <script src="/forehand/global-header.js"></script>
-    <h1>Main Page</h1>
+
+    <img id="bg" src="/demo-site-1/resource/bg.png">
+    <div class="bordered">
+      <h2 class="heading">Welcome<span id="userspan"></span> to Jaxon's site</h2>
+    </div>
+    <hr>
+
+    <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has("variable1")) {
+        let username = urlParams.get("variable");
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = ", " + username + ",";
+      }
+    </script>
   </body>
 </html>
